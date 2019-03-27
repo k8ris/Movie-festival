@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Movie festival</title>
+</head>
+<body>
+
+<form action="post">
+<h1>Movie Festival</h1>
+<fieldset>
+        <p>Please fill in the form</p>
+        <p>Movie</p>
+    <fieldset id="movie">
+        <label for="title">Title</label>
+        <br>
+        <input type="text" id="title">
+        <br>
+        <label for="movie length">Length(min)</label>
+        <br>
+        <input type="number" name="movie length" id="length">
+        <br>
+        <label for="">Genre</label>
+        <br>
+        <select name="genre" id="genre">
+            <option value="choose genre">-</option>
+            <option value="drama">Drama</option>
+            <option value="comedy">Comedy</option>
+            <option value="horror">Horror</option>
+        </select>
+        <br>
+        <div><span id="errorMovie" class="error"></span></div>
+        <br>
+        <input type="button" class="button" value="Movie Create" id="buttonMovieCreate">
+        <br>
+        <div id="movieTextArea"></div>
+    </fieldset>
+        <p>Program</p>
+    <fieldset>
+        <label for="date">Date</label>
+        <br>
+        <input type="date" name="program" id="date">
+        <br>
+        <div><span id="errorProgram" class="error"></span></div>
+        <br>
+        <input type="button" class="button" value="Create Program" id="buttonProgramCreate">
+        <div id="programTextArea"></div>
+        <hr>
+        <label for="movie">Movie</label>
+        <br>
+        <select name="movie" id="selectMovie">
+        <option value="movie">-</option>
+        </select>
+        <br>
+        <label for="program">Program</label>
+        <br>
+        <select name="movie" id="selectProgram"></select>
+        <br>
+        <br>
+        <input type="button" class="button" value="Add movie to program" id="buttonAddMovieToProgram">
+    </fieldset>
+</fieldset>
+</form>
+
+<script type="text/javascript" src="./js/entities.js"></script>   
+<script type="text/javascript" src="./js/form.js"></script>
+
+</body>
+</html>

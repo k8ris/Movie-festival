@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+fieldset input {
+    width: 90%; 
+    margin-bottom: 3%;
+    margin-top: 3%;  
+    padding: 3%;
+}
+fieldset select{
+    width: 90%;
+    margin-top: 3%;
+    padding: 3%;
+    box-sizing: content-box;
+}
+.button{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+.error{
+    color: red;
+}
+
