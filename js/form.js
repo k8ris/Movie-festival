@@ -101,7 +101,7 @@ function AddMovieToProgram() {
     }
     program.addMovie(movie);
 }
-
+// When we click Add movie to program text area below date schedule will update.
 function Update() {
     var programTextArea = document.querySelector('#programTextArea');
     var selectProgram = document.querySelector('#selectProgram');
